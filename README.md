@@ -1,4 +1,4 @@
-A responsive and user-friendly weather app that provides real-time weather data for any location.Built using HTML, CSS, and JavaScript, this app fetches data from a reliable weather API to deliver accurate forecasts.
+I built this weather app using HTML, CSS, and JavaScript to show real-time weather information for any location. The app connects to the OpenWeatherMap API to get accurate weather data, including temperature, humidity, and wind speed. It also shows the weather for your current location if you allow it.
 
 Key Features:
 
