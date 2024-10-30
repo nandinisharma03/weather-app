@@ -171,9 +171,6 @@ async function fetchSearchWeatherInfo(city) {
     }
 
 }
-
-
-// Additional Part
 // Select elements for history and clear button
 const historyList = document.querySelector('[data-historyList]');
 const clearHistoryButton = document.querySelector('[data-clearHistory]');

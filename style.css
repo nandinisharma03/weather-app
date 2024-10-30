@@ -18,10 +18,9 @@
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    /* color: var(--colorLight2); */
+    
     color: black; /* Changing text color to black */
-    /* background-color: #112d4e;
-    background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%); */
+   
     background: url('./Images/backgroundImage2.webp') no-repeat center center/cover;
     background-size: cover;
 }
@@ -38,7 +37,7 @@ h1 {
 }
 
 
-/* additional part */
+
 p{
     line-height:1.6;
     font-size: 1.2rem;
@@ -142,7 +141,7 @@ p{
 }
 
 .formContainer input:focus {
-    /* additional part */
+    
     outline: none;
     outline: 2px solid rgba(255, 255, 255, 0.7);
 }
@@ -154,8 +153,7 @@ p{
 .formContainer .btn {
     width: 40px;
     height: 40px;
-    /* display: grid;
-    place-items: center; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +165,7 @@ p{
     object-fit: contain;
 }
 
-/* Form Container End */
+
 
 /* grant Location  */
 .grantLocationContainer {
@@ -219,14 +217,14 @@ p{
 
 .userInfoContainer {
     display: none;
-    /* additional part */
+    
     opacity: 0;
     transition: opacity 0.5s ease-in;
 }
 
 .userInfoContainer.active {
     display: flex;
-    /* additional part */
+    
     opacity: 1; /* Fade in effect */
 }
 
@@ -322,16 +320,6 @@ p{
     object-fit: cover;
 }   
 
-
-/* additional part */
-/* .spinner {
-    border: 4px solid rgba(219, 226, 239, 0.3);
-    border-top: 4px solid #3f72af;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
-} */
 
 @keyframes spin {
     0% {
